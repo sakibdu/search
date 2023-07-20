@@ -2,7 +2,6 @@ import streamlit as st #line:1
 import time #line:2
 import os #line:3
 st .title ("CleverMate")#line:5
-st .set_page_config (page_title ='CleverMate')#line:6
 huggingfacehub_api_token =st .secrets ["hf_token"]#line:8
 from langchain import HuggingFaceHub ,PromptTemplate ,LLMChain #line:10
 repo_id ="tiiuae/falcon-7b-instruct"#line:12
