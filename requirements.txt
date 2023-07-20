@@ -1,3 +1,4 @@
 langchain==0.0.173
 streamlit==1.22.0
 transformers==2.1.0
+huggingface-hub 0.16.4
